@@ -13,7 +13,7 @@ covered so far
 - implemented a full gpt-2 (124M) architecture from scratch, including layernorm, residual connections, gelu-based ffn blocks, and greedy decoding at inference time
 - pre-trained the 124M model on "The Verdict" short story
 
-## Repo Structure
+### repo structure
 
 ```text
 llm-from-scratch/
