@@ -13,18 +13,19 @@ covered so far
 - implemented a full gpt-2 (124M) architecture from scratch, including layernorm, residual connections, gelu-based ffn blocks, and greedy decoding at inference time
 - pre-trained the 124M model on "The Verdict" short story
 
-## repo structure
+## Repo Structure
 
+```text
 llm-from-scratch/
-├── notebooks/              # Step-by-step implementations and experiments
+├── notebooks/              # step-by-step implementations and experiments
 │   ├── 01_processing_text.ipynb
 │   ├── 02_attention.ipynb
 │   ├── 03_implementing_GPT_model.ipynb
 │   └── 04_pretraining.ipynb
 │
-├── models/                 # (planned) Reusable PyTorch model components
-├── training/               # (planned) Training loops and utilities
-├── experiments/            # (planned) Ablations and scaling experiments
+├── models/                 # (planned) reusable PyTorch model components
+├── training/               # (planned) training loops and utilities
+├── experiments/            # (planned) ablations and scaling experiments
 │
 ├── .gitignore
 ├── LICENSE
