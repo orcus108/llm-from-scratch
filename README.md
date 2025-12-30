@@ -32,3 +32,18 @@ llm-from-scratch/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
+
+### running locally
+
+```bash
+# create virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# install dependencies
+pip install -r requirements.txt
+
+# launch notebooks
+jupyter notebook
+```
