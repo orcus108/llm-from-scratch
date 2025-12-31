@@ -21,7 +21,8 @@ llm-from-scratch/
 │   ├── 01_processing_text.ipynb
 │   ├── 02_attention.ipynb
 │   ├── 03_implementing_GPT_model.ipynb
-│   └── 04_pretraining.ipynb
+│   ├── 04_pretraining.ipynb    
+│   └── modules.py          # reusable model components
 │
 ├── models/                 # (planned) reusable PyTorch model components
 ├── training/               # (planned) training loops and utilities
