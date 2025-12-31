@@ -5,9 +5,7 @@
 code written while reading
 *Build a Large Language Model from Scratch* by Sebastian Raschka. 
 
-
 the goal is to understand how llms actually work by building each component.
-
 
 covered so far
 - built bpe tokenization and token embedding layers
