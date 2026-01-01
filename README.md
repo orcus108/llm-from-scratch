@@ -12,6 +12,9 @@ covered so far
 - implemented self-attention from first principles: qkv projections, causal masking, and multi-head attention
 - implemented a full gpt-2 (124M) architecture from scratch, including layernorm, residual connections, gelu-based ffn blocks, and greedy decoding at inference time
 - pre-trained the 124M model on "The Verdict" short story
+- implemented decoding strategies like temperature scaling and top-k sampling
+- loaded and saved the model and optimizer states
+- loaded the pretrained gpt-2 models from OpenAI
 
 ### repo structure
 
