@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 import tiktoken
+import numpy as np
   
 
 ### from notebook 1: 01_processing_text.ipynb
