@@ -6,3 +6,4 @@ jupyter
 notebook
 pandas
 datasets
+thop
