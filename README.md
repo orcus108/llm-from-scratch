@@ -2,14 +2,14 @@
 
 (work in progress)
 
-code written while reading
-*Build a Large Language Model from Scratch* by Sebastian Raschka. 
+building every single component of an LLM from scratch using PyTorch.
 
 the goal is to understand how llms actually work by building each component.
 
 covered so far
 - built bpe tokenization and token embedding layers
-- implemented self-attention from first principles: qkv projections, causal masking, and multi-head attention
+- implemented self-attention: qkv projections, causal masking, and multi-head attention
+- implemented rotary position embeddings (RoPE)
 - implemented a full gpt-2 (124M) architecture from scratch, including layernorm, residual connections, gelu-based ffn blocks, and greedy decoding at inference time
 - pre-trained the 124M model on "The Verdict" short story
 - implemented decoding strategies like temperature scaling and top-k sampling
@@ -21,13 +21,16 @@ covered so far
 ```text
 llm-from-scratch/
 ├── notebooks/              # step-by-step implementations and experiments
-│   ├── 01_processing_tex
-│   ├── 02_attentio
-│   ├── 03_implementing_GPT_mode
+│   ├── 01_processing0text
+│   ├── 02_attention
+│   ├── 03_implementing-gpt-model
 │   ├── 04_pretraining 
 │   ├── 05_classification-finetuning
-│   ├── 06_instruction-finetuning
-│   └── modules.py          # reusable model components
+│   └── 06_instruction-finetuning  
+│
+├── models/                 # reusable model components
+│   ├── __init__.py
+│   └── modules.py          
 │
 ├── .gitignore
 ├── LICENSE
@@ -48,3 +51,6 @@ pip install -r requirements.txt
 # launch notebooks
 jupyter notebook
 ```
+
+code written while reading
+*Build a Large Language Model from Scratch* by Sebastian Raschka. 
