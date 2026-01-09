@@ -4,7 +4,7 @@
 
 building every single component of an LLM from scratch using PyTorch.
 
-the goal is to understand how llms actually work by building each component.
+the goal is to understand how llms actually work from first principles.
 
 covered so far
 - built bpe tokenization and token embedding layers
