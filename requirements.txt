@@ -8,3 +8,4 @@ pandas
 datasets
 thop
 transformers
+requests

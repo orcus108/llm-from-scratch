@@ -21,7 +21,7 @@ covered so far
 ```text
 llm-from-scratch/
 ├── notebooks/              # step-by-step implementations and experiments
-│   ├── 01_processing0text
+│   ├── 01_processing-text
 │   ├── 02_attention
 │   ├── 03_implementing-gpt-model
 │   ├── 04_pretraining 
@@ -51,6 +51,8 @@ pip install -r requirements.txt
 # launch notebooks
 jupyter notebook
 ```
+
+
 
 code written while reading
 *Build a Large Language Model from Scratch* by Sebastian Raschka. 
