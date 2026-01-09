@@ -21,18 +21,17 @@ covered so far
 ```text
 llm-from-scratch/
 ├── notebooks/              # step-by-step implementations and experiments
-│   ├── 01_processing_text.ipynb
-│   ├── 02_attention.ipynb
-│   ├── 03_implementing_GPT_model.ipynb
-│   ├── 04_pretraining.ipynb    
+│   ├── 01_processing_tex
+│   ├── 02_attentio
+│   ├── 03_implementing_GPT_mode
+│   ├── 04_pretraining 
+│   ├── 05_classification-finetuning
+│   ├── 06_instruction-finetuning
 │   └── modules.py          # reusable model components
-│
-├── models/                 # (planned) reusable PyTorch model components
-├── training/               # (planned) training loops and utilities
-├── experiments/            # (planned) ablations and scaling experiments
 │
 ├── .gitignore
 ├── LICENSE
+├── requirements.txt
 └── README.md
 ```
 
