@@ -1,4 +1,4 @@
-# Chapter 1: Working with Text Data
+# Chapter 2: Attention Mechanism
 
 ## Main Chapter Code
 
